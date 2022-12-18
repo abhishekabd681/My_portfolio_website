@@ -28,10 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Abhishek Chauhan</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            I am a Frontened web-developer i worked on many projects and want to be a part of your company
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,7 +38,7 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
+          <a href="https://github.com/abhishekabd681"><img src={Github} alt="" /></a>
           <img src={LinkedIn} alt="" />
           <img src={Instagram} alt="" />
         </div>
